@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assignment_3_01.EverdayAccount
+  commentId: T:Assignment_3_01.EverdayAccount
+  id: EverdayAccount
+  parent: Assignment_3_01
+  children:
+  - Assignment_3_01.EverdayAccount.#ctor(System.String,System.Double,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EverdayAccount
+  nameWithType: EverdayAccount
+  fullName: Assignment_3_01.EverdayAccount
+  type: Class
+  source:
+    id: EverdayAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\EverdayAccount.cs
+    startLine: 8
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: 'public class EverdayAccount : Account'
+    content.vb: >-
+      Public Class EverdayAccount
+          Inherits Account
+  inheritance:
+  - System.Object
+  - Assignment_3_01.Account
+  derivedClasses:
+  - Assignment_3_01.InvestmentAccount
+  inheritedMembers:
+  - Assignment_3_01.Account.AccountIndicator
+  - Assignment_3_01.Account.interestRate
+  - Assignment_3_01.Account.withdrawalPenalty
+  - Assignment_3_01.Account.Balance
+  - Assignment_3_01.Account.BalanceWithInterest
+  - Assignment_3_01.Account.Name
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assignment_3_01.EverdayAccount.#ctor(System.String,System.Double,System.Int32)
+  commentId: M:Assignment_3_01.EverdayAccount.#ctor(System.String,System.Double,System.Int32)
+  id: '#ctor(System.String,System.Double,System.Int32)'
+  parent: Assignment_3_01.EverdayAccount
+  langs:
+  - csharp
+  - vb
+  name: EverdayAccount(String, Double, Int32)
+  nameWithType: EverdayAccount.EverdayAccount(String, Double, Int32)
+  fullName: Assignment_3_01.EverdayAccount.EverdayAccount(System.String, System.Double, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\EverdayAccount.cs
+    startLine: 11
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public EverdayAccount(string name, double balance, int accountIndicator)
+    parameters:
+    - id: name
+      type: System.String
+    - id: balance
+      type: System.Double
+    - id: accountIndicator
+      type: System.Int32
+    content.vb: Public Sub New(name As String, balance As Double, accountIndicator As Integer)
+  overload: Assignment_3_01.EverdayAccount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assignment_3_01
+  commentId: N:Assignment_3_01
+  name: Assignment_3_01
+  nameWithType: Assignment_3_01
+  fullName: Assignment_3_01
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Assignment_3_01.Account
+  commentId: T:Assignment_3_01.Account
+  parent: Assignment_3_01
+  name: Account
+  nameWithType: Account
+  fullName: Assignment_3_01.Account
+- uid: Assignment_3_01.Account.AccountIndicator
+  commentId: P:Assignment_3_01.Account.AccountIndicator
+  parent: Assignment_3_01.Account
+  name: AccountIndicator
+  nameWithType: Account.AccountIndicator
+  fullName: Assignment_3_01.Account.AccountIndicator
+- uid: Assignment_3_01.Account.interestRate
+  commentId: F:Assignment_3_01.Account.interestRate
+  parent: Assignment_3_01.Account
+  name: interestRate
+  nameWithType: Account.interestRate
+  fullName: Assignment_3_01.Account.interestRate
+- uid: Assignment_3_01.Account.withdrawalPenalty
+  commentId: F:Assignment_3_01.Account.withdrawalPenalty
+  parent: Assignment_3_01.Account
+  name: withdrawalPenalty
+  nameWithType: Account.withdrawalPenalty
+  fullName: Assignment_3_01.Account.withdrawalPenalty
+- uid: Assignment_3_01.Account.Balance
+  commentId: P:Assignment_3_01.Account.Balance
+  parent: Assignment_3_01.Account
+  name: Balance
+  nameWithType: Account.Balance
+  fullName: Assignment_3_01.Account.Balance
+- uid: Assignment_3_01.Account.BalanceWithInterest
+  commentId: P:Assignment_3_01.Account.BalanceWithInterest
+  parent: Assignment_3_01.Account
+  name: BalanceWithInterest
+  nameWithType: Account.BalanceWithInterest
+  fullName: Assignment_3_01.Account.BalanceWithInterest
+- uid: Assignment_3_01.Account.Name
+  commentId: P:Assignment_3_01.Account.Name
+  parent: Assignment_3_01.Account
+  name: Name
+  nameWithType: Account.Name
+  fullName: Assignment_3_01.Account.Name
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assignment_3_01.EverdayAccount.#ctor*
+  commentId: Overload:Assignment_3_01.EverdayAccount.#ctor
+  name: EverdayAccount
+  nameWithType: EverdayAccount.EverdayAccount
+  fullName: Assignment_3_01.EverdayAccount.EverdayAccount
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

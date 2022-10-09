@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assignment_3_01.Account
+  commentId: T:Assignment_3_01.Account
+  id: Account
+  parent: Assignment_3_01
+  children:
+  - Assignment_3_01.Account.#ctor(System.String,System.Double,System.Int32)
+  - Assignment_3_01.Account.AccountIndicator
+  - Assignment_3_01.Account.Balance
+  - Assignment_3_01.Account.BalanceWithInterest
+  - Assignment_3_01.Account.interestRate
+  - Assignment_3_01.Account.Name
+  - Assignment_3_01.Account.withdrawalPenalty
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: Account
+  fullName: Assignment_3_01.Account
+  type: Class
+  source:
+    id: Account
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 8
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class Account
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class Account
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Assignment_3_01.EverdayAccount
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Assignment_3_01.Account.AccountIndicator
+  commentId: P:Assignment_3_01.Account.AccountIndicator
+  id: AccountIndicator
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: AccountIndicator
+  nameWithType: Account.AccountIndicator
+  fullName: Assignment_3_01.Account.AccountIndicator
+  type: Property
+  source:
+    id: AccountIndicator
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 11
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public int AccountIndicator { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AccountIndicator As Integer
+  overload: Assignment_3_01.Account.AccountIndicator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Account.interestRate
+  commentId: F:Assignment_3_01.Account.interestRate
+  id: interestRate
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: interestRate
+  nameWithType: Account.interestRate
+  fullName: Assignment_3_01.Account.interestRate
+  type: Field
+  source:
+    id: interestRate
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 12
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public static double interestRate
+    return:
+      type: System.Double
+    content.vb: Public Shared interestRate As Double
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assignment_3_01.Account.withdrawalPenalty
+  commentId: F:Assignment_3_01.Account.withdrawalPenalty
+  id: withdrawalPenalty
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: withdrawalPenalty
+  nameWithType: Account.withdrawalPenalty
+  fullName: Assignment_3_01.Account.withdrawalPenalty
+  type: Field
+  source:
+    id: withdrawalPenalty
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 13
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public static double withdrawalPenalty
+    return:
+      type: System.Double
+    content.vb: Public Shared withdrawalPenalty As Double
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Assignment_3_01.Account.Balance
+  commentId: P:Assignment_3_01.Account.Balance
+  id: Balance
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: Account.Balance
+  fullName: Assignment_3_01.Account.Balance
+  type: Property
+  source:
+    id: Balance
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 14
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public double Balance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Balance As Double
+  overload: Assignment_3_01.Account.Balance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Account.BalanceWithInterest
+  commentId: P:Assignment_3_01.Account.BalanceWithInterest
+  id: BalanceWithInterest
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: BalanceWithInterest
+  nameWithType: Account.BalanceWithInterest
+  fullName: Assignment_3_01.Account.BalanceWithInterest
+  type: Property
+  source:
+    id: BalanceWithInterest
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 15
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public double BalanceWithInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property BalanceWithInterest As Double
+  overload: Assignment_3_01.Account.BalanceWithInterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Account.Name
+  commentId: P:Assignment_3_01.Account.Name
+  id: Name
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Account.Name
+  fullName: Assignment_3_01.Account.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 16
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Assignment_3_01.Account.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Account.#ctor(System.String,System.Double,System.Int32)
+  commentId: M:Assignment_3_01.Account.#ctor(System.String,System.Double,System.Int32)
+  id: '#ctor(System.String,System.Double,System.Int32)'
+  parent: Assignment_3_01.Account
+  langs:
+  - csharp
+  - vb
+  name: Account(String, Double, Int32)
+  nameWithType: Account.Account(String, Double, Int32)
+  fullName: Assignment_3_01.Account.Account(System.String, System.Double, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Account.cs
+    startLine: 20
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public Account(string name, double balance, int accountIndicator)
+    parameters:
+    - id: name
+      type: System.String
+    - id: balance
+      type: System.Double
+    - id: accountIndicator
+      type: System.Int32
+    content.vb: Public Sub New(name As String, balance As Double, accountIndicator As Integer)
+  overload: Assignment_3_01.Account.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assignment_3_01
+  commentId: N:Assignment_3_01
+  name: Assignment_3_01
+  nameWithType: Assignment_3_01
+  fullName: Assignment_3_01
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assignment_3_01.Account.AccountIndicator*
+  commentId: Overload:Assignment_3_01.Account.AccountIndicator
+  name: AccountIndicator
+  nameWithType: Account.AccountIndicator
+  fullName: Assignment_3_01.Account.AccountIndicator
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Assignment_3_01.Account.Balance*
+  commentId: Overload:Assignment_3_01.Account.Balance
+  name: Balance
+  nameWithType: Account.Balance
+  fullName: Assignment_3_01.Account.Balance
+- uid: Assignment_3_01.Account.BalanceWithInterest*
+  commentId: Overload:Assignment_3_01.Account.BalanceWithInterest
+  name: BalanceWithInterest
+  nameWithType: Account.BalanceWithInterest
+  fullName: Assignment_3_01.Account.BalanceWithInterest
+- uid: Assignment_3_01.Account.Name*
+  commentId: Overload:Assignment_3_01.Account.Name
+  name: Name
+  nameWithType: Account.Name
+  fullName: Assignment_3_01.Account.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assignment_3_01.Account.#ctor*
+  commentId: Overload:Assignment_3_01.Account.#ctor
+  name: Account
+  nameWithType: Account.Account
+  fullName: Assignment_3_01.Account.Account

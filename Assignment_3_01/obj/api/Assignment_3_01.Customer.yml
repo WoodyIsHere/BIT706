@@ -1,0 +1,952 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assignment_3_01.Customer
+  commentId: T:Assignment_3_01.Customer
+  id: Customer
+  parent: Assignment_3_01
+  children:
+  - Assignment_3_01.Customer.#ctor(System.String)
+  - Assignment_3_01.Customer.#ctor(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  - Assignment_3_01.Customer.CustomerName
+  - Assignment_3_01.Customer.GetAccounts
+  - Assignment_3_01.Customer.GetEverdayAccount
+  - Assignment_3_01.Customer.GetID
+  - Assignment_3_01.Customer.GetInvestmentAccount
+  - Assignment_3_01.Customer.GetOmniAccount
+  - Assignment_3_01.Customer.ReadBinaryData
+  - Assignment_3_01.Customer.SetEverdayAccount(Assignment_3_01.EverdayAccount)
+  - Assignment_3_01.Customer.SetInvestmentAccount(Assignment_3_01.InvestmentAccount)
+  - Assignment_3_01.Customer.SetOmniAccount(Assignment_3_01.OmniAccount)
+  - Assignment_3_01.Customer.WriteBinaryData
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: Customer
+  fullName: Assignment_3_01.Customer
+  type: Class
+  source:
+    id: Customer
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 11
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Customer
+    content.vb: >-
+      <Serializable>
+
+      Public Class Customer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assignment_3_01.Customer.CustomerName
+  commentId: P:Assignment_3_01.Customer.CustomerName
+  id: CustomerName
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: CustomerName
+  nameWithType: Customer.CustomerName
+  fullName: Assignment_3_01.Customer.CustomerName
+  type: Property
+  source:
+    id: CustomerName
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 23
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public string CustomerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomerName As String
+  overload: Assignment_3_01.Customer.CustomerName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.GetID
+  commentId: M:Assignment_3_01.Customer.GetID
+  id: GetID
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetID()
+  nameWithType: Customer.GetID()
+  fullName: Assignment_3_01.Customer.GetID()
+  type: Method
+  source:
+    id: GetID
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 25
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public int GetID()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetID As Integer
+  overload: Assignment_3_01.Customer.GetID*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.GetAccounts
+  commentId: M:Assignment_3_01.Customer.GetAccounts
+  id: GetAccounts
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetAccounts()
+  nameWithType: Customer.GetAccounts()
+  fullName: Assignment_3_01.Customer.GetAccounts()
+  type: Method
+  source:
+    id: GetAccounts
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 30
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public List<Account> GetAccounts()
+    return:
+      type: System.Collections.Generic.List{Assignment_3_01.Account}
+    content.vb: Public Function GetAccounts As List(Of Account)
+  overload: Assignment_3_01.Customer.GetAccounts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.#ctor(System.String)
+  commentId: M:Assignment_3_01.Customer.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: Customer(String)
+  nameWithType: Customer.Customer(String)
+  fullName: Assignment_3_01.Customer.Customer(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 36
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public Customer(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: Assignment_3_01.Customer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.#ctor(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  commentId: M:Assignment_3_01.Customer.#ctor(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  id: '#ctor(System.String,System.Double,System.Double,System.Double,System.Int32[])'
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: Customer(String, Double, Double, Double, Int32[])
+  nameWithType: Customer.Customer(String, Double, Double, Double, Int32[])
+  fullName: Assignment_3_01.Customer.Customer(System.String, System.Double, System.Double, System.Double, System.Int32[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 47
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public Customer(string name, double eBalance, double iBalance, double oBalance, int[] accountIndicator)
+    parameters:
+    - id: name
+      type: System.String
+    - id: eBalance
+      type: System.Double
+    - id: iBalance
+      type: System.Double
+    - id: oBalance
+      type: System.Double
+    - id: accountIndicator
+      type: System.Int32[]
+    content.vb: Public Sub New(name As String, eBalance As Double, iBalance As Double, oBalance As Double, accountIndicator As Integer())
+  overload: Assignment_3_01.Customer.#ctor*
+  nameWithType.vb: Customer.Customer(String, Double, Double, Double, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assignment_3_01.Customer.Customer(System.String, System.Double, System.Double, System.Double, System.Int32())
+  name.vb: Customer(String, Double, Double, Double, Int32())
+- uid: Assignment_3_01.Customer.SetOmniAccount(Assignment_3_01.OmniAccount)
+  commentId: M:Assignment_3_01.Customer.SetOmniAccount(Assignment_3_01.OmniAccount)
+  id: SetOmniAccount(Assignment_3_01.OmniAccount)
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: SetOmniAccount(OmniAccount)
+  nameWithType: Customer.SetOmniAccount(OmniAccount)
+  fullName: Assignment_3_01.Customer.SetOmniAccount(Assignment_3_01.OmniAccount)
+  type: Method
+  source:
+    id: SetOmniAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 56
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public void SetOmniAccount(OmniAccount o)
+    parameters:
+    - id: o
+      type: Assignment_3_01.OmniAccount
+    content.vb: Public Sub SetOmniAccount(o As OmniAccount)
+  overload: Assignment_3_01.Customer.SetOmniAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.GetOmniAccount
+  commentId: M:Assignment_3_01.Customer.GetOmniAccount
+  id: GetOmniAccount
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetOmniAccount()
+  nameWithType: Customer.GetOmniAccount()
+  fullName: Assignment_3_01.Customer.GetOmniAccount()
+  type: Method
+  source:
+    id: GetOmniAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 62
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public OmniAccount GetOmniAccount()
+    return:
+      type: Assignment_3_01.OmniAccount
+    content.vb: Public Function GetOmniAccount As OmniAccount
+  overload: Assignment_3_01.Customer.GetOmniAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.SetInvestmentAccount(Assignment_3_01.InvestmentAccount)
+  commentId: M:Assignment_3_01.Customer.SetInvestmentAccount(Assignment_3_01.InvestmentAccount)
+  id: SetInvestmentAccount(Assignment_3_01.InvestmentAccount)
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: SetInvestmentAccount(InvestmentAccount)
+  nameWithType: Customer.SetInvestmentAccount(InvestmentAccount)
+  fullName: Assignment_3_01.Customer.SetInvestmentAccount(Assignment_3_01.InvestmentAccount)
+  type: Method
+  source:
+    id: SetInvestmentAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 67
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public void SetInvestmentAccount(InvestmentAccount i)
+    parameters:
+    - id: i
+      type: Assignment_3_01.InvestmentAccount
+    content.vb: Public Sub SetInvestmentAccount(i As InvestmentAccount)
+  overload: Assignment_3_01.Customer.SetInvestmentAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.GetInvestmentAccount
+  commentId: M:Assignment_3_01.Customer.GetInvestmentAccount
+  id: GetInvestmentAccount
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetInvestmentAccount()
+  nameWithType: Customer.GetInvestmentAccount()
+  fullName: Assignment_3_01.Customer.GetInvestmentAccount()
+  type: Method
+  source:
+    id: GetInvestmentAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 73
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public InvestmentAccount GetInvestmentAccount()
+    return:
+      type: Assignment_3_01.InvestmentAccount
+    content.vb: Public Function GetInvestmentAccount As InvestmentAccount
+  overload: Assignment_3_01.Customer.GetInvestmentAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.SetEverdayAccount(Assignment_3_01.EverdayAccount)
+  commentId: M:Assignment_3_01.Customer.SetEverdayAccount(Assignment_3_01.EverdayAccount)
+  id: SetEverdayAccount(Assignment_3_01.EverdayAccount)
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: SetEverdayAccount(EverdayAccount)
+  nameWithType: Customer.SetEverdayAccount(EverdayAccount)
+  fullName: Assignment_3_01.Customer.SetEverdayAccount(Assignment_3_01.EverdayAccount)
+  type: Method
+  source:
+    id: SetEverdayAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 78
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public void SetEverdayAccount(EverdayAccount e)
+    parameters:
+    - id: e
+      type: Assignment_3_01.EverdayAccount
+    content.vb: Public Sub SetEverdayAccount(e As EverdayAccount)
+  overload: Assignment_3_01.Customer.SetEverdayAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.GetEverdayAccount
+  commentId: M:Assignment_3_01.Customer.GetEverdayAccount
+  id: GetEverdayAccount
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetEverdayAccount()
+  nameWithType: Customer.GetEverdayAccount()
+  fullName: Assignment_3_01.Customer.GetEverdayAccount()
+  type: Method
+  source:
+    id: GetEverdayAccount
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 84
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public EverdayAccount GetEverdayAccount()
+    return:
+      type: Assignment_3_01.EverdayAccount
+    content.vb: Public Function GetEverdayAccount As EverdayAccount
+  overload: Assignment_3_01.Customer.GetEverdayAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.WriteBinaryData
+  commentId: M:Assignment_3_01.Customer.WriteBinaryData
+  id: WriteBinaryData
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: WriteBinaryData()
+  nameWithType: Customer.WriteBinaryData()
+  fullName: Assignment_3_01.Customer.WriteBinaryData()
+  type: Method
+  source:
+    id: WriteBinaryData
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 89
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public void WriteBinaryData()
+    content.vb: Public Sub WriteBinaryData
+  overload: Assignment_3_01.Customer.WriteBinaryData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Customer.ReadBinaryData
+  commentId: M:Assignment_3_01.Customer.ReadBinaryData
+  id: ReadBinaryData
+  parent: Assignment_3_01.Customer
+  langs:
+  - csharp
+  - vb
+  name: ReadBinaryData()
+  nameWithType: Customer.ReadBinaryData()
+  fullName: Assignment_3_01.Customer.ReadBinaryData()
+  type: Method
+  source:
+    id: ReadBinaryData
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Customer.cs
+    startLine: 106
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public void ReadBinaryData()
+    content.vb: Public Sub ReadBinaryData
+  overload: Assignment_3_01.Customer.ReadBinaryData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assignment_3_01
+  commentId: N:Assignment_3_01
+  name: Assignment_3_01
+  nameWithType: Assignment_3_01
+  fullName: Assignment_3_01
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assignment_3_01.Customer.CustomerName*
+  commentId: Overload:Assignment_3_01.Customer.CustomerName
+  name: CustomerName
+  nameWithType: Customer.CustomerName
+  fullName: Assignment_3_01.Customer.CustomerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assignment_3_01.Customer.GetID*
+  commentId: Overload:Assignment_3_01.Customer.GetID
+  name: GetID
+  nameWithType: Customer.GetID
+  fullName: Assignment_3_01.Customer.GetID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assignment_3_01.Customer.GetAccounts*
+  commentId: Overload:Assignment_3_01.Customer.GetAccounts
+  name: GetAccounts
+  nameWithType: Customer.GetAccounts
+  fullName: Assignment_3_01.Customer.GetAccounts
+- uid: System.Collections.Generic.List{Assignment_3_01.Account}
+  commentId: T:System.Collections.Generic.List{Assignment_3_01.Account}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Account>
+  nameWithType: List<Account>
+  fullName: System.Collections.Generic.List<Assignment_3_01.Account>
+  nameWithType.vb: List(Of Account)
+  fullName.vb: System.Collections.Generic.List(Of Assignment_3_01.Account)
+  name.vb: List(Of Account)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assignment_3_01.Account
+    name: Account
+    nameWithType: Account
+    fullName: Assignment_3_01.Account
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assignment_3_01.Account
+    name: Account
+    nameWithType: Account
+    fullName: Assignment_3_01.Account
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assignment_3_01.Customer.#ctor*
+  commentId: Overload:Assignment_3_01.Customer.#ctor
+  name: Customer
+  nameWithType: Customer.Customer
+  fullName: Assignment_3_01.Customer.Customer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Assignment_3_01.Customer.SetOmniAccount*
+  commentId: Overload:Assignment_3_01.Customer.SetOmniAccount
+  name: SetOmniAccount
+  nameWithType: Customer.SetOmniAccount
+  fullName: Assignment_3_01.Customer.SetOmniAccount
+- uid: Assignment_3_01.OmniAccount
+  commentId: T:Assignment_3_01.OmniAccount
+  parent: Assignment_3_01
+  name: OmniAccount
+  nameWithType: OmniAccount
+  fullName: Assignment_3_01.OmniAccount
+- uid: Assignment_3_01.Customer.GetOmniAccount*
+  commentId: Overload:Assignment_3_01.Customer.GetOmniAccount
+  name: GetOmniAccount
+  nameWithType: Customer.GetOmniAccount
+  fullName: Assignment_3_01.Customer.GetOmniAccount
+- uid: Assignment_3_01.Customer.SetInvestmentAccount*
+  commentId: Overload:Assignment_3_01.Customer.SetInvestmentAccount
+  name: SetInvestmentAccount
+  nameWithType: Customer.SetInvestmentAccount
+  fullName: Assignment_3_01.Customer.SetInvestmentAccount
+- uid: Assignment_3_01.InvestmentAccount
+  commentId: T:Assignment_3_01.InvestmentAccount
+  parent: Assignment_3_01
+  name: InvestmentAccount
+  nameWithType: InvestmentAccount
+  fullName: Assignment_3_01.InvestmentAccount
+- uid: Assignment_3_01.Customer.GetInvestmentAccount*
+  commentId: Overload:Assignment_3_01.Customer.GetInvestmentAccount
+  name: GetInvestmentAccount
+  nameWithType: Customer.GetInvestmentAccount
+  fullName: Assignment_3_01.Customer.GetInvestmentAccount
+- uid: Assignment_3_01.Customer.SetEverdayAccount*
+  commentId: Overload:Assignment_3_01.Customer.SetEverdayAccount
+  name: SetEverdayAccount
+  nameWithType: Customer.SetEverdayAccount
+  fullName: Assignment_3_01.Customer.SetEverdayAccount
+- uid: Assignment_3_01.EverdayAccount
+  commentId: T:Assignment_3_01.EverdayAccount
+  parent: Assignment_3_01
+  name: EverdayAccount
+  nameWithType: EverdayAccount
+  fullName: Assignment_3_01.EverdayAccount
+- uid: Assignment_3_01.Customer.GetEverdayAccount*
+  commentId: Overload:Assignment_3_01.Customer.GetEverdayAccount
+  name: GetEverdayAccount
+  nameWithType: Customer.GetEverdayAccount
+  fullName: Assignment_3_01.Customer.GetEverdayAccount
+- uid: Assignment_3_01.Customer.WriteBinaryData*
+  commentId: Overload:Assignment_3_01.Customer.WriteBinaryData
+  name: WriteBinaryData
+  nameWithType: Customer.WriteBinaryData
+  fullName: Assignment_3_01.Customer.WriteBinaryData
+- uid: Assignment_3_01.Customer.ReadBinaryData*
+  commentId: Overload:Assignment_3_01.Customer.ReadBinaryData
+  name: ReadBinaryData
+  nameWithType: Customer.ReadBinaryData
+  fullName: Assignment_3_01.Customer.ReadBinaryData

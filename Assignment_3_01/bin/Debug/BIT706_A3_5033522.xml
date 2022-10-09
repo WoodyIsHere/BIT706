@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BIT706_A3_5033522</name>
+    </assembly>
+    <members>
+        <member name="F:Assignment_3_01.AddCustomer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.AddCustomer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.AddCustomer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.AddNewAccount.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.AddNewAccount.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.AddNewAccount.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.BankForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.BankForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.BankForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.BaseDesign.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.BaseDesign.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.BaseDesign.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Assignment_3_01.Controller">
+            <summary>
+             Represents the controller class for all base functionality within the app
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.Controller.GetCustomerNameList">
+            <summary>
+            Retrives the customer list
+            </summary>
+            <returns>Returns the customer list</returns>
+        </member>
+        <member name="M:Assignment_3_01.Controller.GetCustomer(System.Int32)">
+            <summary>
+            Returns a specific customer
+            </summary>
+            <param name="index">This is the index that is passed from any class that needs the method</param>
+            <returns>Returns a customer</returns>
+        </member>
+        <member name="M:Assignment_3_01.Controller.AddCustomer(System.String,System.Double,System.Double,System.Double,System.Int32[])">
+            <summary>
+            Adds a customer to the customerlist
+            </summary>
+            <param name="name">The name of the customer</param>
+            <param name="eBalance">The balance for the everyday account</param>
+            <param name="iBalance">The balance for the investment account</param>
+            <param name="oBalance">The balance for the omni account</param>
+            <param name="accountTypeIndicator">This is an array to indicate what type of account is being made</param>
+        </member>
+        <member name="M:Assignment_3_01.Controller.SearchCustomer(System.String,Assignment_3_01.Customer)">
+            <summary>
+            This looks for a customer given a specific paremeter using a name
+            </summary>
+            <param name="name">The name that is passed</param>
+            <param name="c">The customer object that is being passed</param>
+        </member>
+        <member name="M:Assignment_3_01.Controller.DeleteCustomer(Assignment_3_01.Customer)">
+            <summary>
+            This deletes a customer object from the customerList
+            </summary>
+            <param name="c">The customer object to be deleteled</param>
+        </member>
+        <member name="M:Assignment_3_01.Controller.MakeDeposit(System.Double,System.Double)">
+            <summary>
+            This is the method to make a deposit
+            </summary>
+            <param name="value">The value to change the balance</param>
+            <param name="balance">The current balance</param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment_3_01.Controller.MakeWithdrawal(System.Double,System.Double)">
+            <summary>
+            This is the method to create a withdrawal
+            </summary>
+            <param name="value">The value to change the balance</param>
+            <param name="balance">The current balance</param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment_3_01.Controller.FailedWithdrawalCheck(System.Double,System.Double)">
+            <summary>
+            This checks whether there is enough funds in the account
+            </summary>
+            <param name="value">The value passed in</param>
+            <param name="balance">The balance that is passed in</param>
+            <returns>a boolean of true if failed, and false if succeeded</returns>
+        </member>
+        <member name="M:Assignment_3_01.Controller.GetBalanceWithInterest(System.Double)">
+            <summary>
+            This calculates how much interest for each balance at a rate set in the account class
+            </summary>
+            <param name="value">The valud passed in</param>
+            <returns>Returns the new balance with the interest calculated</returns>
+        </member>
+        <member name="F:Assignment_3_01.CustomerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.CustomerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.CustomerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.EditCustomer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.EditCustomer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.EditCustomer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.Home.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.Home.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.Home.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:Assignment_3_01.TransferForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assignment_3_01.TransferForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assignment_3_01.TransferForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Assignment_3.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Assignment_3.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Assignment_3.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assignment_3_01.Controller
+  commentId: T:Assignment_3_01.Controller
+  id: Controller
+  parent: Assignment_3_01
+  children:
+  - Assignment_3_01.Controller.AddCustomer(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  - Assignment_3_01.Controller.customerNameList
+  - Assignment_3_01.Controller.DeleteCustomer(Assignment_3_01.Customer)
+  - Assignment_3_01.Controller.FailedWithdrawalCheck(System.Double,System.Double)
+  - Assignment_3_01.Controller.GetBalanceWithInterest(System.Double)
+  - Assignment_3_01.Controller.GetCustomer(System.Int32)
+  - Assignment_3_01.Controller.GetCustomerNameList
+  - Assignment_3_01.Controller.MakeDeposit(System.Double,System.Double)
+  - Assignment_3_01.Controller.MakeWithdrawal(System.Double,System.Double)
+  - Assignment_3_01.Controller.SearchCustomer(System.String,Assignment_3_01.Customer)
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: Controller
+  fullName: Assignment_3_01.Controller
+  type: Class
+  source:
+    id: Controller
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 11
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nRepresents the controller class for all base functionality within the app\n"
+  example: []
+  syntax:
+    content: public class Controller
+    content.vb: Public Class Controller
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assignment_3_01.Controller.customerNameList
+  commentId: F:Assignment_3_01.Controller.customerNameList
+  id: customerNameList
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: customerNameList
+  nameWithType: Controller.customerNameList
+  fullName: Assignment_3_01.Controller.customerNameList
+  type: Field
+  source:
+    id: customerNameList
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 13
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  syntax:
+    content: public List<Customer> customerNameList
+    return:
+      type: System.Collections.Generic.List{Assignment_3_01.Customer}
+    content.vb: Public customerNameList As List(Of Customer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.GetCustomerNameList
+  commentId: M:Assignment_3_01.Controller.GetCustomerNameList
+  id: GetCustomerNameList
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: GetCustomerNameList()
+  nameWithType: Controller.GetCustomerNameList()
+  fullName: Assignment_3_01.Controller.GetCustomerNameList()
+  type: Method
+  source:
+    id: GetCustomerNameList
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 19
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nRetrives the customer list\n"
+  example: []
+  syntax:
+    content: public List<Customer> GetCustomerNameList()
+    return:
+      type: System.Collections.Generic.List{Assignment_3_01.Customer}
+      description: Returns the customer list
+    content.vb: Public Function GetCustomerNameList As List(Of Customer)
+  overload: Assignment_3_01.Controller.GetCustomerNameList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.GetCustomer(System.Int32)
+  commentId: M:Assignment_3_01.Controller.GetCustomer(System.Int32)
+  id: GetCustomer(System.Int32)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: GetCustomer(Int32)
+  nameWithType: Controller.GetCustomer(Int32)
+  fullName: Assignment_3_01.Controller.GetCustomer(System.Int32)
+  type: Method
+  source:
+    id: GetCustomer
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 29
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nReturns a specific customer\n"
+  example: []
+  syntax:
+    content: public Customer GetCustomer(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: This is the index that is passed from any class that needs the method
+    return:
+      type: Assignment_3_01.Customer
+      description: Returns a customer
+    content.vb: Public Function GetCustomer(index As Integer) As Customer
+  overload: Assignment_3_01.Controller.GetCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.AddCustomer(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  commentId: M:Assignment_3_01.Controller.AddCustomer(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  id: AddCustomer(System.String,System.Double,System.Double,System.Double,System.Int32[])
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: AddCustomer(String, Double, Double, Double, Int32[])
+  nameWithType: Controller.AddCustomer(String, Double, Double, Double, Int32[])
+  fullName: Assignment_3_01.Controller.AddCustomer(System.String, System.Double, System.Double, System.Double, System.Int32[])
+  type: Method
+  source:
+    id: AddCustomer
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 42
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nAdds a customer to the customerlist\n"
+  example: []
+  syntax:
+    content: public void AddCustomer(string name, double eBalance, double iBalance, double oBalance, int[] accountTypeIndicator)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the customer
+    - id: eBalance
+      type: System.Double
+      description: The balance for the everyday account
+    - id: iBalance
+      type: System.Double
+      description: The balance for the investment account
+    - id: oBalance
+      type: System.Double
+      description: The balance for the omni account
+    - id: accountTypeIndicator
+      type: System.Int32[]
+      description: This is an array to indicate what type of account is being made
+    content.vb: Public Sub AddCustomer(name As String, eBalance As Double, iBalance As Double, oBalance As Double, accountTypeIndicator As Integer())
+  overload: Assignment_3_01.Controller.AddCustomer*
+  nameWithType.vb: Controller.AddCustomer(String, Double, Double, Double, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Assignment_3_01.Controller.AddCustomer(System.String, System.Double, System.Double, System.Double, System.Int32())
+  name.vb: AddCustomer(String, Double, Double, Double, Int32())
+- uid: Assignment_3_01.Controller.SearchCustomer(System.String,Assignment_3_01.Customer)
+  commentId: M:Assignment_3_01.Controller.SearchCustomer(System.String,Assignment_3_01.Customer)
+  id: SearchCustomer(System.String,Assignment_3_01.Customer)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: SearchCustomer(String, Customer)
+  nameWithType: Controller.SearchCustomer(String, Customer)
+  fullName: Assignment_3_01.Controller.SearchCustomer(System.String, Assignment_3_01.Customer)
+  type: Method
+  source:
+    id: SearchCustomer
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 52
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis looks for a customer given a specific paremeter using a name\n"
+  example: []
+  syntax:
+    content: public void SearchCustomer(string name, Customer c)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name that is passed
+    - id: c
+      type: Assignment_3_01.Customer
+      description: The customer object that is being passed
+    content.vb: Public Sub SearchCustomer(name As String, c As Customer)
+  overload: Assignment_3_01.Controller.SearchCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.DeleteCustomer(Assignment_3_01.Customer)
+  commentId: M:Assignment_3_01.Controller.DeleteCustomer(Assignment_3_01.Customer)
+  id: DeleteCustomer(Assignment_3_01.Customer)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: DeleteCustomer(Customer)
+  nameWithType: Controller.DeleteCustomer(Customer)
+  fullName: Assignment_3_01.Controller.DeleteCustomer(Assignment_3_01.Customer)
+  type: Method
+  source:
+    id: DeleteCustomer
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 63
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis deletes a customer object from the customerList\n"
+  example: []
+  syntax:
+    content: public void DeleteCustomer(Customer c)
+    parameters:
+    - id: c
+      type: Assignment_3_01.Customer
+      description: The customer object to be deleteled
+    content.vb: Public Sub DeleteCustomer(c As Customer)
+  overload: Assignment_3_01.Controller.DeleteCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.MakeDeposit(System.Double,System.Double)
+  commentId: M:Assignment_3_01.Controller.MakeDeposit(System.Double,System.Double)
+  id: MakeDeposit(System.Double,System.Double)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: MakeDeposit(Double, Double)
+  nameWithType: Controller.MakeDeposit(Double, Double)
+  fullName: Assignment_3_01.Controller.MakeDeposit(System.Double, System.Double)
+  type: Method
+  source:
+    id: MakeDeposit
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 77
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis is the method to make a deposit\n"
+  example: []
+  syntax:
+    content: public double MakeDeposit(double value, double balance)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The value to change the balance
+    - id: balance
+      type: System.Double
+      description: The current balance
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Function MakeDeposit(value As Double, balance As Double) As Double
+  overload: Assignment_3_01.Controller.MakeDeposit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.MakeWithdrawal(System.Double,System.Double)
+  commentId: M:Assignment_3_01.Controller.MakeWithdrawal(System.Double,System.Double)
+  id: MakeWithdrawal(System.Double,System.Double)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: MakeWithdrawal(Double, Double)
+  nameWithType: Controller.MakeWithdrawal(Double, Double)
+  fullName: Assignment_3_01.Controller.MakeWithdrawal(System.Double, System.Double)
+  type: Method
+  source:
+    id: MakeWithdrawal
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 89
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis is the method to create a withdrawal\n"
+  example: []
+  syntax:
+    content: public double MakeWithdrawal(double value, double balance)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The value to change the balance
+    - id: balance
+      type: System.Double
+      description: The current balance
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Function MakeWithdrawal(value As Double, balance As Double) As Double
+  overload: Assignment_3_01.Controller.MakeWithdrawal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.FailedWithdrawalCheck(System.Double,System.Double)
+  commentId: M:Assignment_3_01.Controller.FailedWithdrawalCheck(System.Double,System.Double)
+  id: FailedWithdrawalCheck(System.Double,System.Double)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: FailedWithdrawalCheck(Double, Double)
+  nameWithType: Controller.FailedWithdrawalCheck(Double, Double)
+  fullName: Assignment_3_01.Controller.FailedWithdrawalCheck(System.Double, System.Double)
+  type: Method
+  source:
+    id: FailedWithdrawalCheck
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 108
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis checks whether there is enough funds in the account\n"
+  example: []
+  syntax:
+    content: public bool FailedWithdrawalCheck(double value, double balance)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The value passed in
+    - id: balance
+      type: System.Double
+      description: The balance that is passed in
+    return:
+      type: System.Boolean
+      description: a boolean of true if failed, and false if succeeded
+    content.vb: Public Function FailedWithdrawalCheck(value As Double, balance As Double) As Boolean
+  overload: Assignment_3_01.Controller.FailedWithdrawalCheck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assignment_3_01.Controller.GetBalanceWithInterest(System.Double)
+  commentId: M:Assignment_3_01.Controller.GetBalanceWithInterest(System.Double)
+  id: GetBalanceWithInterest(System.Double)
+  parent: Assignment_3_01.Controller
+  langs:
+  - csharp
+  - vb
+  name: GetBalanceWithInterest(Double)
+  nameWithType: Controller.GetBalanceWithInterest(Double)
+  fullName: Assignment_3_01.Controller.GetBalanceWithInterest(System.Double)
+  type: Method
+  source:
+    id: GetBalanceWithInterest
+    path: C:\Users\User\source\repos\BIT706_A3_5033522\Assignment_3_01\Controller.cs
+    startLine: 124
+  assemblies:
+  - BIT706_A3_5033522
+  namespace: Assignment_3_01
+  summary: "\nThis calculates how much interest for each balance at a rate set in the account class\n"
+  example: []
+  syntax:
+    content: public double GetBalanceWithInterest(double value)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The valud passed in
+    return:
+      type: System.Double
+      description: Returns the new balance with the interest calculated
+    content.vb: Public Function GetBalanceWithInterest(value As Double) As Double
+  overload: Assignment_3_01.Controller.GetBalanceWithInterest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assignment_3_01
+  commentId: N:Assignment_3_01
+  name: Assignment_3_01
+  nameWithType: Assignment_3_01
+  fullName: Assignment_3_01
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Assignment_3_01.Customer}
+  commentId: T:System.Collections.Generic.List{Assignment_3_01.Customer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Customer>
+  nameWithType: List<Customer>
+  fullName: System.Collections.Generic.List<Assignment_3_01.Customer>
+  nameWithType.vb: List(Of Customer)
+  fullName.vb: System.Collections.Generic.List(Of Assignment_3_01.Customer)
+  name.vb: List(Of Customer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assignment_3_01.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assignment_3_01.Customer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assignment_3_01.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assignment_3_01.Customer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assignment_3_01.Controller.GetCustomerNameList*
+  commentId: Overload:Assignment_3_01.Controller.GetCustomerNameList
+  name: GetCustomerNameList
+  nameWithType: Controller.GetCustomerNameList
+  fullName: Assignment_3_01.Controller.GetCustomerNameList
+- uid: Assignment_3_01.Controller.GetCustomer*
+  commentId: Overload:Assignment_3_01.Controller.GetCustomer
+  name: GetCustomer
+  nameWithType: Controller.GetCustomer
+  fullName: Assignment_3_01.Controller.GetCustomer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assignment_3_01.Customer
+  commentId: T:Assignment_3_01.Customer
+  parent: Assignment_3_01
+  name: Customer
+  nameWithType: Customer
+  fullName: Assignment_3_01.Customer
+- uid: Assignment_3_01.Controller.AddCustomer*
+  commentId: Overload:Assignment_3_01.Controller.AddCustomer
+  name: AddCustomer
+  nameWithType: Controller.AddCustomer
+  fullName: Assignment_3_01.Controller.AddCustomer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Assignment_3_01.Controller.SearchCustomer*
+  commentId: Overload:Assignment_3_01.Controller.SearchCustomer
+  name: SearchCustomer
+  nameWithType: Controller.SearchCustomer
+  fullName: Assignment_3_01.Controller.SearchCustomer
+- uid: Assignment_3_01.Controller.DeleteCustomer*
+  commentId: Overload:Assignment_3_01.Controller.DeleteCustomer
+  name: DeleteCustomer
+  nameWithType: Controller.DeleteCustomer
+  fullName: Assignment_3_01.Controller.DeleteCustomer
+- uid: Assignment_3_01.Controller.MakeDeposit*
+  commentId: Overload:Assignment_3_01.Controller.MakeDeposit
+  name: MakeDeposit
+  nameWithType: Controller.MakeDeposit
+  fullName: Assignment_3_01.Controller.MakeDeposit
+- uid: Assignment_3_01.Controller.MakeWithdrawal*
+  commentId: Overload:Assignment_3_01.Controller.MakeWithdrawal
+  name: MakeWithdrawal
+  nameWithType: Controller.MakeWithdrawal
+  fullName: Assignment_3_01.Controller.MakeWithdrawal
+- uid: Assignment_3_01.Controller.FailedWithdrawalCheck*
+  commentId: Overload:Assignment_3_01.Controller.FailedWithdrawalCheck
+  name: FailedWithdrawalCheck
+  nameWithType: Controller.FailedWithdrawalCheck
+  fullName: Assignment_3_01.Controller.FailedWithdrawalCheck
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Assignment_3_01.Controller.GetBalanceWithInterest*
+  commentId: Overload:Assignment_3_01.Controller.GetBalanceWithInterest
+  name: GetBalanceWithInterest
+  nameWithType: Controller.GetBalanceWithInterest
+  fullName: Assignment_3_01.Controller.GetBalanceWithInterest
